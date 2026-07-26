@@ -31,5 +31,5 @@ server {
 }
 EOF
 
-service nginx start || service nginx restart
+service nginx restart || service nginx start
 
