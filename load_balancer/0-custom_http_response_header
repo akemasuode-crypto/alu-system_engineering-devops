@@ -21,3 +21,4 @@ sed -i "/server_name _;/a add_header X-Served-By $HOSTNAME;" /etc/nginx/sites-av
 
 nginx -t
 
+service nginx restart || service nginx start
